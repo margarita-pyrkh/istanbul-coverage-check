@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'istanbul-coverage-test';
   title2 = 'istanbul-coverage-test';
+
+  simpleMethod(): string {
+    debugger;
+    return this.title;
+  }
 }
